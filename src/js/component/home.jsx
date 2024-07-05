@@ -12,16 +12,15 @@ const Home = () => {
 		<>
 			<Navbar />
 			<div className="container">
-				<Jumbotron />
-					<div className="gap-4 d-flex flex-sm-row flex-column row justify-content-center">
-						<Card />
-						<Card />
-						<Card />
-						<Card />
-					</div>
-					<Footer />				
+				<Jumbotron className="jumbo"/>
+					<div className="row text-center">
+						<Card className="float-sm-start"/>
+						<Card className="float-sm-start"/>
+						<Card className="float-sm-start"/>
+						<Card className="float-sm-start"/>
+					</div>			
 			</div>
-			
+			<Footer className="footer" />
 			
 		</>
 	);
